@@ -28,10 +28,7 @@ For the chosen year provide,
 - Monthly average late aircraft delay by reporting airline for the given year.
 NOTE: You have worked created the same dashboard components in Flight Delay Time Statistics Dashboard section. We will be reusing the same.
 
-Expected Layout
-
-
-## Requirements:
+## Expected Layout Requirements:
 Create the expected result
 Two dropdown menus: For choosing report type and year
 Each dropdown will be designed as follows:

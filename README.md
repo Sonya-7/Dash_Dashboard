@@ -1,16 +1,12 @@
 # Create an Interactive Dashboard using Dash
 
 ## Story:
-As a data analyst, you have been given a task to monitor and report US domestic airline flights performance. Goal is to analyze the performance of the reporting airline to improve flight reliability thereby improving customer reliability.
+As a data analyst, you have been given a task to monitor and report US domestic airline flights performance from 2005 to 2020.Your goal is to analyze the performance of the reporting airline to improve flight reliability thereby improving customer reliability.
 
-Below are the key report items,
+Below are the key report items:
 
-Yearly airline performance report 
-Yearly average flight delay statistics
-NOTE: Year range is between 2005 and 2020.
-
-Components of the report items
-Yearly airline performance report
+- Yearly airline performance report 
+- Yearly average flight delay statistics
 
 For the chosen year provide,
 
@@ -21,7 +17,7 @@ For the chosen year provide,
 - Number of flights flying to each state from each reporting airline using treemap chart.
 - Yearly average flight delay statistics
 
-For the chosen year provide,
+For the chosen month provide,
 
 - Monthly average carrier delay by reporting airline for the given year.
 - Monthly average weather delay by reporting airline for the given year.
@@ -34,10 +30,10 @@ NOTE: You have worked created the same dashboard components in Flight Delay Time
 Create the expected result
 Two dropdown menus: For choosing report type and year
 Each dropdown will be designed as follows:
-    An outer division with two inner divisions (as shown in the expected layout)
-    One of the inner divisions will have information about the dropdown and the other one is dropdown
-    Layout for adding graphs
-    Callback function to compute data, create graph and return to the layout
+   - An outer division with two inner divisions
+   - One of the inner divisions will have information about the dropdown and the other one is dropdown
+   - Layout for adding graphs
+   - Callback function to compute data, create graph and return to the layout
     
 ## Sample Output 1:
 ![Screenshot (28)](https://user-images.githubusercontent.com/92489108/167524885-46be2044-ed1a-462f-8018-a7d2ec77a001.png)
